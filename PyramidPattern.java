@@ -1,7 +1,10 @@
 public class Pattern {
 
     public static void main(String[] args) {
-        int rows = 5, k = 0;
+        int rows , k = 0;
+        Scanner sc=new Scanner(System.in);
+        rows=sc.nextInt();
+        
 
         for(int i = 1; i <= rows; ++i, k = 0) {
             for(int space = 1; space <= rows - i; ++space) {
